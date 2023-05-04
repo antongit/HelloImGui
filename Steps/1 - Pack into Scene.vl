@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="P9IgCD34KNjM5ELt50v2AZ" LanguageVersion="2023.5.0" Version="0.128">
+<Document xmlns:p="property" xmlns:r="reflection" Id="COHWsf3lE00MoIleYNvjnH" LanguageVersion="2023.5.0" Version="0.128">
   <NugetDependency Id="IHNLOvlNyziOI5dDIqtXud" Location="VL.CoreLib" Version="2023.5.0" />
   <Patch Id="CqZmc8Lwnc3PuygMdEcB9f">
     <Canvas Id="LgnhB0FCbSHPJdRiuY7d6P" DefaultCategory="App" CanvasType="FullCategory">
@@ -822,7 +822,7 @@
             <Pin Id="NHTrs38Pd9tOz6Szdqmwh1" Name="Output" Kind="OutputPin" />
           </Node>
           <Node Bounds="492,315,54,19" Id="HZbnlm8AhxjMy2jaAEq30e">
-            <p:NodeReference LastCategoryFullName="App" LastDependency="1.vl">
+            <p:NodeReference LastCategoryFullName="App" LastDependency="1 - Pack into Scene.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="App" NeedsToBeDirectParent="true" />
               <Choice Kind="ProcessAppFlag" Name="Scene" />
@@ -831,13 +831,22 @@
             <Pin Id="RDZ8UL12VjyPUemmLoGEPw" Name="Camera" Kind="OutputPin" />
           </Node>
           <Node Bounds="612,373,46,19" Id="PxusfEBqsKrLPmiRthVuKf">
-            <p:NodeReference LastCategoryFullName="App" LastDependency="1.vl">
+            <p:NodeReference LastCategoryFullName="App" LastDependency="1 - Pack into Scene.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="App" NeedsToBeDirectParent="true" />
               <Choice Kind="ProcessAppFlag" Name="PostFX" />
             </p:NodeReference>
             <Pin Id="KPQ1qpcoTXOPZfbipQU7ni" Name="Output" Kind="OutputPin" />
           </Node>
+          <Pad Id="PjZHGd03xbZMdoTJRRNDiX" Bounds="554,322,292,19" ShowValueBox="true" isIOBox="true" Value="&lt; Packed the whole scene into this Processnode">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
         <Patch Id="D4LJTNS1QgoMOFk4Rv6NDt" Name="Create" />
         <Patch Id="CAYfWRQiFFvLbjQbpBsosq" Name="Update" />
